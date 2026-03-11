@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>contact form</title>
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Young+Serif&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <div class="part-one">
+            <h1 class="part-one__name">John Simon</h1>
+            <p class="part-one__role">Web developer</p>
+            <a class="part-one__home" href="index.html">home</a>
+        </div>
+
+        <div class="part-two">
+            <form action="thanks.html">
+                <table>
+                    <tr>
+                        <td><label for="Name">Name:</label></td>
+                        <td><input type="text" id="Name" name="name" placeholder="enter your name"
+                                class="part-two__name"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="Email">Email:</label></td>
+                        <td><input type="email" id="Email" name="email" placeholder="enter your email"
+                                class="part-two__email"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="Message">Message:</label></td>
+                        <td><textarea id="Message" name="Message" rows="3" cols="20" placeholder="enter your Message"
+                                class="part-two__textarea"></textarea></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td><input type="submit" value="SUBMIT" class="part-two__submit">
+                            <input type="reset" value="reset" class="part-two__reset">
+                        </td>
+                    </tr>
+                </table>
+            </form>
+        </div>
+
+        <footer class="footer">
+            <p>Socialmedia:
+                <a class="footer-link" href="https://www.instagram.com/ft.jxhnn__/" target="_blank">INSTAGRAM</a>
+            </p>
+            &copy; John Simon 2026
+        </footer>
+    </div>
+</body>
+
+</html>
