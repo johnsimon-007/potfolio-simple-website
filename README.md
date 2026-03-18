@@ -57,6 +57,9 @@ The goal of this project is to practice:
 
 ---
 
+live webpage link
+👉🔗:  https://johnsimon-007.github.io/potfolio-simple-website/
+
 ## License
 
 This project is created for learning purposes.
